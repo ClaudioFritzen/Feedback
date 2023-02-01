@@ -38,6 +38,34 @@ body {
     cursor: pointer;
     padding: 10px;
     margin: 10px 5px;
+
+}
+
+.rating:hover{
+    background: darkgreen;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    color: aliceblue;
+    transition: all 300ms ease;
+}
+
+.btn {
+    background-color: darkcyan;
+    color: aliceblue;
+    border: 0;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    transition: all 300ms ease;
+}
+
+.btn:active{
+    transform: scale(0.96);
 }
 
 .rating img {
